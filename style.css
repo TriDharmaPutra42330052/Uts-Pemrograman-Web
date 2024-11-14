@@ -142,7 +142,7 @@ small{
     color: #555;
 }
 .testimonial{
-    padding-top: 100px;
+    padding-top: 20px;
 }
 .testimonial .col-3{
     text-align: center;
@@ -442,4 +442,10 @@ form a{
 .footer-deaf img{
     width: 500px;
     margin-bottom: 20px;
+}
+.small-containertestimoni{
+    font-size: 25px;
+    max-width: 1080px;
+    padding-left: 25px;
+    margin: 100px auto;
 }
