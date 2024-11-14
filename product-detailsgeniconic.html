@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <title>Account | Deaf Authentic</title>
+    <title>Product Detail | Deaf Authentic</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,52 +16,89 @@
             <img src="foto/deaf-logo-removebg-preview.png" width="125px">  
         </div>
         <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></a/li>
-                    <li><a href="product.html">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="https://chat.whatsapp.com/KKZzGJ53j9mCcWwl0pCM5q">Contact</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
+            <ul>
+                <li><a href="index.html">Home</a></a/li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="https://chat.whatsapp.com/JfpZCEcaPtFIdzX49ZlSA0">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
         </nav>
         <img src="foto/cart-removebg-preview.png" width="30px" height="30px">
         <img src="foto/menu.png" class="menu-icon">
     </div>
 </div>
 
-<div class="account-page">
-    <div class="container">
-        <div class="row">
-            <div class="footer-deaf">
-                <img src="foto/deaf-logo-removebg-preview.png" width="100%">
-            </div>
-            <div class="col-2">
-                <div class="form-container">
-                    <div class="form-btn">
-                        <span onclick="login()">Login</span>
-                        <span onclick="register()">Register</span>
-                        <hr id="Indicator">
-                    </div>
-                    <form id="LoginForm">
-                        <input type="text" placeholder="Username">
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Login</button>
-                        <a href="">Forgot password?</a>
-                    </form>
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="foto/baju1.jpg" width="100%">
+        </div>
+        <div class="col-2">
+            <p>T-Shirt</p>
+            <h1>TS BG GENICONIC</h1>
+            <h4>Rp 299.000,00</h4>
+            <select>
+                <option>Select Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</Leg></option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select>
+            <input type="number" value="1">
+            <a href="cart.html" class="btn">Add to Cart</a>
 
-                    <form id="RegForm">
-                        <input type="text" placeholder="Username">
-                        <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Register</button>
-                        
-                    </form>
-                </div>
-            </div>
+            <h3>Description</h3>
+            <p>Made in Bali</p>
+            <p>Cotton</p>
+            <p>Black Color</p>
+
+            <h3>Care Instructions</h3>
+            <p>Do Not Bleach</p>
+            <p>Do Not Tumble Dry</p>
+            <p>Warm Iron</p>
+            <p>Do Not Iron Print</p>
         </div>
     </div>
 </div>
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <a href="product.html"><p>View more</p>
+        </a>
+    </div>
+</div>
+    
+        <div class="row">
+            <div class="col-4">
+                <a href="product-detailshano.html"><img src="foto/bajulast1.jpg">
+                </a>
+                <h4>TS BLK HANO</h4>
+                <p>Rp 299.000,00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detailssacred.html"><img src="foto/bajulast2.jpg">
+                </a>
+                <h4>TS BW SACRED</h4>
+                <p>Rp 299.900,00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detailssunblos.html"><img src="foto/celanalast1.jpg">
+                </a>
+                <h4>DF BS SUNBLOS</h4>
+                <p>Rp 409.900,00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-detailsrose.html"><img src="foto/celanalast2.jpg">
+                </a>
+                <h4>WS PNK ROSE</h4>
+                <p>Rp 429.900,00</p>
+            </div>
+        </div>
 
+        </div>
+    
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -100,21 +137,5 @@
             <p class="copyright">copyright 2024 - Deaf Authentic</p>
         </div>
     </div>
-    <script>
-        var LoginForm = document.getElementById("LoginForm");
-        var RegForm = document.getElementById("RegForm");
-        var Indicator = document.getElementById("Indicator");
-
-            function register(){
-                RegForm.style.transform = "translateX(0px)";
-                LoginForm.style.transform = "translateX(0px)";
-                Indicator.style.transform = "translateX(100px)";
-            }
-            function login(){
-                RegForm.style.transform = "translateX(400px)";
-                LoginForm.style.transform = "translateX(300px)";
-                Indicator.style.transform = "translateX(0px)";
-            }
-    </script>
 </body>    
 </html>
